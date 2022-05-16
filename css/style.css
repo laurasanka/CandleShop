@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.intro-image { 
+    background-attachment: fixed;
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a { 
+    background-color: #6d3f2771;
+    border: 2px solid #6d3f27;
+    color: #59524c;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__link a:hover { 
+    transform: scale(1.2);
+}
+
+.intro-text { 
+    background-color: #65371e;
+    color: #dfc3ae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    margin-top: -5rem;
+    padding: 0 15rem;
+    clip-path: polygon(50% 8%, 100% 0, 100% 43%, 100% 100%, 68% 100%, 32% 100%, 0 100%, 0% 43%, 0 0);
+}
+
+.intro-text__textbox h3 { 
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image { 
+    background-attachment: fixed;
+    background-image: url("../img/img22.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a { 
+    background-color: #3a241c7c;
+    border: 2px solid #3a241c;
+    color: #b67e7c;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text a:hover { 
+    transform: scale(1.2);
+}
+
+.packaging-text { 
+    background-color: #aa8d78;
+    color: #5e3618;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    margin-top: -5rem;
+    padding: 0 15rem;
+}
+
+.packaging_text__textbox h3 { 
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image { 
+    background-image: url("../img/img33.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a { 
+    background-color: #32291b85;
+    border: 2px solid #32291b;
+    color: #a8a098;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    color:  rgb(156, 103, 103);
+    font-size: 2rem;
+    height: 200px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer ul li { 
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a { 
+    color: rgb(156, 103, 103);
+    text-decoration: none;
+}
+
+.footer ul li:hover, .footer ul li a:hover { 
+    color: #b67e7c;
+    transform: scale(1.2);
+}
